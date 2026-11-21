@@ -1,0 +1,18 @@
+[project]
+name = "webcam-riser"
+version = "0.1.0"
+description = "3D-printable L-shaped webcam riser (build123d)"
+authors = [
+    { name = "Orfeo42", email = "lucio.rosadini87@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "build123d>=0.13.0",
+    "pyvista>=0.49.2",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "pytest>=9.2.0",
+]
