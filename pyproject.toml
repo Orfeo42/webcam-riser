@@ -2,6 +2,7 @@
 name = "webcam-riser"
 version = "0.1.0"
 description = "3D-printable L-shaped webcam riser (build123d)"
+license = "Unlicense"
 authors = [
     { name = "Orfeo42", email = "lucio.rosadini87@gmail.com" }
 ]
